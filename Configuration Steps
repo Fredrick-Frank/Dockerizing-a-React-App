@@ -1,1 +1,5 @@
 
+#sudo npx create-react-app gfg ---- this will setup the react dependencies and modules
+#touch Dockerfile ---- where we write our docker syntax to dockerize the react app
+#docker build -t [container-id/name] ----------- building from the base image set in the Dockerfile
+#docker container run -p 3000:3000 -d --name docker-app [container-id/name]
